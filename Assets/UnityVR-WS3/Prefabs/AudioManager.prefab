@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1198003796307400034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198003796307400035}
+  - component: {fileID: 1198003796307400032}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198003796307400035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198003796307400034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198003796307400032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198003796307400034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1aac4959d993248a3cbae902b9ae9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Mort
+    clip: {fileID: 8300000, guid: 2144cb6d978dff14087a544b17a36d56, type: 3}
+    volume: 1
+    spatialBlend: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Respawn
+    clip: {fileID: 8300000, guid: bf4a6de6ad5e17c4cab050d7844a0d5b, type: 3}
+    volume: 1
+    spatialBlend: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Tir
+    clip: {fileID: 8300000, guid: b1a33bee4dfcd084ba2b9ea56e9da651, type: 3}
+    volume: 1
+    spatialBlend: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Touche
+    clip: {fileID: 8300000, guid: 6a1dbaf5f459ba344a2ce16c5f4712ee, type: 3}
+    volume: 1
+    spatialBlend: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Play
+    clip: {fileID: 8300000, guid: 256b163dafa499d4bb863b0f1c05bcc8, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Settings
+    clip: {fileID: 8300000, guid: 7da1547d5718d67479a4425f4d1e2d29, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Level Editor
+    clip: {fileID: 8300000, guid: 7d1013d7f12122245be3cb305cd2da30, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Quit
+    clip: {fileID: 8300000, guid: 6ea371dbe49668f4cab55d22fca298b4, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ThemeMenu
+    clip: {fileID: 8300000, guid: 2053cd95cc885464b83d6a1c6686d1ce, type: 3}
+    volume: 0.2
+    spatialBlend: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ThemeGame
+    clip: {fileID: 8300000, guid: 4aa219cb77dd71641bbb41ecfa1ed9f8, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Commands
+    clip: {fileID: 8300000, guid: e9d8f4f503b00904eb08c23def8e2d19, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Rules
+    clip: {fileID: 8300000, guid: f9dc264a75cac784ba820fa3f60089b0, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Back
+    clip: {fileID: 8300000, guid: cd8602ce06bdd1a4c8502d21388e58a8, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Apply
+    clip: {fileID: 8300000, guid: 969ec7d9b509f9f4a9bba31f153bcec4, type: 3}
+    volume: 1
+    spatialBlend: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

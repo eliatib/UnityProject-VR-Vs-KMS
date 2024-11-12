@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.unityprojectvrvskms.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\titou\\Documents\\Unity Project\\UnityProject-VR-Vs-KMS\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "UnityProject-VR-Vs-KMS [Testing]"
+        }
+      }
+    }
+  ]
+}
